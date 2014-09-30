@@ -1,1 +1,5 @@
-hello
+<% @links do |link|%>
+	<%= link_to link.short_url, link.original_url %>
+<% end %>
+
+
